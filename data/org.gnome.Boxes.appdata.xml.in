@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Red Hat, Inc -->
+<component type="desktop">
+  <id>@appid@.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LGPL-2.1+</project_license>
+  <name>Boxes</name>
+  <summary>Virtualization made simple</summary>
+  <description>
+    <p>
+      Select an operating system and let Boxes download and install it for you
+      in a virtual machine.
+    </p>
+
+    <p>Features:</p>
+    <ul>
+      <li>Download freely available operating systems.</li>
+      <li>Automatically install CentOS Stream, Debian, Fedora, Microsoft Windows, OpenSUSE, Red
+      Hat Enterprise Linux, and Ubuntu.</li>
+      <li>Create virtual machines from operating system images with a couple of clicks.</li>
+      <li>Limit the resources (memory and storage) your virtual machines consume from your system.</li>
+      <li>Take snapshots of virtual machines to restore to previous states.</li>
+      <li>Redirect USB devices from your physical machine into virtual machines.</li>
+      <li>3D acceleration for some of the supported operating systems.</li>
+      <li>Automatically resize virtual machines displays to the window size.</li>
+      <li>Share clipboard between your system and virtual machines.</li>
+      <li>Share files to virtual machines by dropping them from your file manager into the Boxes window.</li>
+      <li>Setup Shared Folders between your system and virtual machines.</li>
+    </ul>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://gitlab.gnome.org/GNOME/gnome-boxes-logos/-/raw/master/screenshots/gnome-42/01-icon-view.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/GNOME/gnome-boxes-logos/-/raw/master/screenshots/gnome-42/02-display-view.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/GNOME/gnome-boxes-logos/-/raw/master/screenshots/gnome-42/03-preferences-dialog.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://gitlab.gnome.org/GNOME/gnome-boxes-logos/-/raw/master/screenshots/gnome-42/04-vm-creation-assistant.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="43.1" date="2022-10-25"/>
+  </releases>
+  <kudos>
+    <kudo>AppMenu</kudo>
+    <kudo>HiDpiIcon</kudo>
+    <kudo>HighContrast</kudo>
+    <kudo>ModernToolkit</kudo>
+    <kudo>SearchProvider</kudo>
+    <kudo>UserDocs</kudo>
+  </kudos>
+  <provides>
+    <binary>gnome-boxes</binary>
+  </provides>
+  <launchable type="desktop-id">org.gnome.Boxes.desktop</launchable>
+  <project_group>GNOME</project_group>
+  <developer_name>The GNOME Project</developer_name>
+  <update_contact>felipeborges_at_gnome.org</update_contact>
+  <url type="homepage">https://gnomeboxes.org</url>
+  <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnome-boxes/issues</url>
+  <url type="donation">http://www.gnome.org/friends/</url>
+  <url type="help">https://help.gnome.org/users/gnome-boxes/stable/</url>
+  <url type="translate">https://wiki.gnome.org/TranslationProject</url>
+  <translation type="gettext">gnome-boxes</translation>
+  <content_rating type="oars-1.1" />
+  <custom>
+    <value key="GnomeSoftware::key-colors">[(143, 124, 209)]</value>
+  </custom>
+
+</component>
